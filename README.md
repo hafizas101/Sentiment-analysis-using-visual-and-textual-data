@@ -1,5 +1,5 @@
 # Sentiment-analysis-using-visual-and-textual-data
-##### The notebook "mood.ipynb" has been developed according to the instructions in "Mood Recognition Tagging Module.pdf". Please read the pdf file first.
+#### The notebook "mood.ipynb" has been developed according to the instructions in "Mood Recognition Tagging Module.pdf". Please read the pdf file first.
 This project consists of 2 modules:
 1. Sentiment analysis using faces in a video
 2. Sentiment analysis from subtitles
@@ -16,4 +16,4 @@ The emotion classifier has been trained on well known Kaggle dataset https://www
 ## Sentiment Analysis using subtitle file
 In this module, we are using Vader Sentiment analyzer from NLTK library. This module also has two parts as well. In the first part we segmenting the subtitle file on the basis of time stamp information. So we are applying sentiment analyzer on every text data for every time stamp. The analyzer returns us a dictionary consisting of a score between 0 and 1 for neutral, negative and positive. Using these values we find polarity and emotional intensity. In the second part, instead of dividing the subtitle file according to time stamp information, we are diving the total text data into num_period intervals. Then we are applying sentiment analysis on every interval. So if we decrease the valuue of num_period, time_period will increase and there will be more words per line on which sentiment anlysis will be performed. 
 
-##### More details about the the project can be seen in report.pdf file.
+#### More details about the the project can be seen in report.pdf file.
